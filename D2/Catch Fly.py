@@ -4,7 +4,6 @@ for test_case in range(1,T+1):
     N, M, c = A[0], A[1], A[1]
     array_n = []
     array_m = []
-    array_t = []
     total ,result = 0, 0
     for n in range(1,N+1):
         array_n.append(list(map(int,input().split())))
